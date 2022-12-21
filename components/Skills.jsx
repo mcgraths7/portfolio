@@ -2,7 +2,7 @@ import React from 'react';
 import SkillCard from './SkillCard';
 
 const Skills = () => (
-  <div className="w-full md:h-screen p-4 py-16" id="skills">
+  <div className="w-full p-4 py-8 mt-4" id="skills">
     <div className="max-w-7xl m-auto">
       <h2 className="py-4 uppercase text-xl tracking-widest text-[#00009c]">Skills</h2>
       <h3 className="py-2 text-3xl">What I can do</h3>

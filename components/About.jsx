@@ -4,7 +4,7 @@ import Image from 'next/image';
 import CustomLink from './CustomLink';
 
 const About = () => (
-  <div className="w-full md:h-screen p-4 flex items-center py-16" id="about">
+  <div className="w-full mt-4 p-4 py-16" id="about">
     <div className="max-w-7xl m-auto md:grid grid-cols-3 gap-8 items-center">
       <div className="col-span-2">
         <h2 className="py-4 uppercase text-xl tracking-widest text-[#00009c]">About</h2>

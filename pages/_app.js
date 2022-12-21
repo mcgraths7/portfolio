@@ -6,7 +6,7 @@ import useMenu from '../hooks/use-menu';
 import '../styles/globals.css';
 
 export default function App({ Component, pageProps }) {
-  const { isOpen, toggleMenu } = useMenu(false);
+  const { isOpen, toggleMenu } = useMenu();
 
   return (
     <>
@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
         type="button"
         onClick={toggleMenu}
         disabled={isOpen}
-        className="fixed right-4 bottom-4 md:hidden p-2 shadow-md shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-300 transition-all"
+        className="fixed right-4 bottom-4 md:hidden p-2 shadow-md shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-300 transition-all z-30"
       >
         <AiOutlineMenu size={25} />
       </button>

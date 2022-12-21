@@ -25,10 +25,10 @@ const Navbar = ({ isOpen, toggleMenu }) => (
             <Link href="/#about">About</Link>
           </li>
           <li className="text-small font-sans uppercase hover:underline">
-            <Link href="/#projects">Projects</Link>
+            <Link href="/#skills">Skills</Link>
           </li>
           <li className="text-small font-sans uppercase hover:underline">
-            <Link href="/#skills">Skills</Link>
+            <Link href="/#projects">Projects</Link>
           </li>
           <li className="text-small font-sans uppercase hover:underline">
             <Link href="/#contact">Contact</Link>
@@ -36,11 +36,11 @@ const Navbar = ({ isOpen, toggleMenu }) => (
         </ul>
       </nav>
     </div>
-    <div className={isOpen ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''} />
+    <div className={isOpen ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 z-40' : ''} />
     <div
       className={
         isOpen
-          ? 'md:hidden fixed right-0 top-0 w-[75vw] sm:w-[60vw] md:w-[45vw] h-full bg-[#ecf0f3] p-4 ease-in duration-500'
+          ? 'md:hidden fixed right-0 top-0 w-[75vw] sm:w-[60vw] md:w-[45vw] h-full bg-[#ecf0f3] p-4 ease-in duration-500 z-50'
           : 'md:hidden fixed right-[-100%] top-0 w-[75vw] sm:w-[60vw] md:w-[45vw] h-full bg-[#ecf0f3] p-4 ease-in duration-500'
       }
     >

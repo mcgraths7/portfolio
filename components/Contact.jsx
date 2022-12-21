@@ -6,8 +6,8 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import CustomLink from './CustomLink';
 
 const Contact = () => (
-  <div id="contact" className="w-full">
-    <div className="max-w-7xl m-auto px-2 py-16 w-full ">
+  <div id="contact" className="w-full p-4 py-16 mt-4">
+    <div className="max-w-7xl m-auto">
       <p className="text-xl tracking-widest uppercase text-[#00009c]">Contact</p>
       <h2 className="py-4">Drop me a line</h2>
       <div className="grid lg:grid-cols-5 gap-8">
