@@ -6,12 +6,11 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import CustomLink from './CustomLink';
 
 const Contact = () => (
-  <div id="contact" className="w-full lg:h-screen">
+  <div id="contact" className="w-full">
     <div className="max-w-7xl m-auto px-2 py-16 w-full ">
       <p className="text-xl tracking-widest uppercase text-[#00009c]">Contact</p>
       <h2 className="py-4">Drop me a line</h2>
       <div className="grid lg:grid-cols-5 gap-8">
-        {/* left */}
         <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4 bg-white">
           <div className="lg:p-4 h-full">
             <div>
@@ -22,20 +21,20 @@ const Contact = () => (
             </div>
             <div className="max-w-[330px]">
               <p className="uppercase pt-8">Connect With Me</p>
-              <div className="flex items-center justify-between py-4">
+              <div className="flex items-center gap-8 py-4">
                 <CustomLink href="https://www.linkedin.com/in/hi-im-steven/" external>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-inherit">
                     <FaLinkedinIn />
                   </div>
                 </CustomLink>
                 <CustomLink href="https://github.com/mcgraths7" external>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-inherit">
                     <FaGithub />
                   </div>
                 </CustomLink>
 
                 <CustomLink href={`mailto:talktome@stevenmcgrath.xyz?subject=RE: Let's Connect`}>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-inherit">
                     <AiOutlineMail />
                   </div>
                 </CustomLink>
@@ -44,7 +43,6 @@ const Contact = () => (
           </div>
         </div>
 
-        {/* right */}
         <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 bg-white">
           <div className="p-4">
             <form

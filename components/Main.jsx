@@ -14,9 +14,10 @@ const Main = () => (
             Hey there, <span className="text-[#00009c]">Steven</span> here
           </h2>
           <h2>I've been a front-end web developer since 2020</h2>
-          <p className="py-4 sm:max-w-[70%] m-auto">
-            I've been a professional front-end web developer for about 2 years. During that time, I helped launch 4
-            client sites (lead developer for 2, supported 2), and helped maintain and modernize Digg.com.
+          <p className="py-4 sm:max-w-[70%] m-auto text-lg">
+            I've been a professional front-end web developer for about 2 years. During that time, I helped launch 5
+            client sites (lead developer for 2, supported 1, and 2 clients later transitioned to shopify), and helped
+            maintain and modernize Digg.com.
           </p>
           <div className="flex items-center justify-between max-w-[300px] m-auto">
             <div className="rounded-full shadow-md shadow-gray-400 p-6 hover:scale-110 ease-in duration-300 transition-all">
